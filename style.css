@@ -42,7 +42,7 @@ body{
     margin-top: 70px;
 }
 
-#campo-da-senha{
+#campo-senha{
     background-color: var(--fundo-texto);
     border: none;
     color: var(--branco);
@@ -51,7 +51,7 @@ body{
     width: 70%;
 }
 
-#campo-da-senha:focus{
+#campo-senha:focus{
     outline: none;
 }
 
@@ -134,7 +134,7 @@ label{
 .fraca{
     width: 25%;
     background-color: #E71B32; 
-}
+}da-
 
 .parametro-senha-textos{
     display: flex;
