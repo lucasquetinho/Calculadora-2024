@@ -8,7 +8,7 @@
     --fonte: 'Workbench', sans-serif;
     --cor-barra-fraca: #FF001D;
     --cor-barra-media: #FFF900; 
-    --cor-barra-forte: #00FF85;
+    --cor-barra-forte: #3eb626;
 }
 
 *{
@@ -65,6 +65,7 @@ body{
     border: 2px solid var(--borda);
     margin-top: 32px;
     padding: 24px;
+    margin-bottom: 24px;
 }
 
 .parametro-titulo{
@@ -78,7 +79,7 @@ body{
 }
 
 .parametro-senha{
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -122,7 +123,7 @@ label{
 .barra{
     background-color: var(--cor-de-fundo);
     height: 30px;
-    width: 100%;
+    width: 100%;  
 }
 
 .forca{
@@ -133,7 +134,7 @@ label{
 
 .fraca{
     width: 25%;
-    background-color: #E71B32; 
+    background-color: var(--cor-barra-fraca); 
 }
 
 .parametro-senha-textos{
@@ -142,12 +143,12 @@ label{
 }
 
 .media{
-    background-color: #FAF408;
+    background-color: var(--cor-barra-media);
     width: 50%;
 }
 
 .forte{
-    background-color: #00FF85;
+    background-color: var(--cor-barra-forte);
     width: 100%;
 }
 
